@@ -1,0 +1,246 @@
+body{
+    margin: auto; 
+    background-color: #242424;
+    padding: 2.25% 5px;
+}
+body .paper{
+    margin: auto;
+    position: relative;
+    width: 650px;
+}
+body .paper .container{
+    margin: auto;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+body .paper .container .full-moon {
+    margin: auto;
+    position: relative;
+    width: calc(100% - 10px);
+    height: 80%;
+    background-color: #eeeeee;
+    border-radius: 50%;
+}
+body .paper .container .hidden-moon{
+    margin: auto;
+    position: absolute;
+    width: calc(100% - 10px);
+    height: 80%;
+    background-color: #242424;
+    border-radius: 50%;
+    bottom: 20%;
+    transform: scale(.95);
+    left: 15%;
+}
+body .paper .container .totoro{
+    margin: auto;
+    position: relative;
+    bottom: 50%;
+    width: 70%;
+    height: 70%;
+    background-color: #e0ce83;
+}
+body .paper .container .totoro .totoro-ears{
+    margin: auto;
+    display: flex; 
+    position: relative;
+    width: 50%;
+    height: 15%;
+    z-index: 1000;
+}
+body .paper .container .totoro .totoro-ears .ear{
+    margin: auto;
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+body .paper .container .totoro .totoro-ears .ear .ear-top{
+    margin: auto;
+    position: relative;
+    top: 12.5%;
+    width: 50%; 
+    height: 25%;
+    border-radius: 50%;
+    background: #9a9995;
+}
+body .paper .container .totoro .totoro-ears .ear .ear-middle{
+    margin: auto;
+    position: relative;
+    width: 100%; 
+    height:60%;
+    background: #9a9995;
+    clip-path: polygon(25% 0, 75% 0, 100% 100%, 0% 100%);
+}
+body .paper .container .totoro .totoro-ears .ear .ear-bottom{
+    margin: auto;
+    position: relative;
+    bottom: 25%;
+    width: 100%; 
+    height:60%;
+    border-radius: 50%;
+    background: #9a9995;
+}
+body .paper .container .totoro .totoro-ears .ear .ear-union{
+    margin: auto;
+    position: relative;
+    bottom: 45%;
+    width: 100%; 
+    height:40%;
+    background: #9a9995; 
+    transform: scale(0.80);
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+}
+body .paper .container .totoro .totoro-head{
+    margin: auto;
+    position: relative;
+    width: 49%;
+    height: 50%;
+    border-radius: 60%;
+    background-color: #9a9995;
+    border: solid #242424;
+}
+body .paper .container .totoro .totoro-face{
+    margin: auto;
+    position: absolute;
+    bottom: 55%;
+    left: 25%;
+    width: 49%;
+    height: 25%;
+    z-index: 2000;
+}
+body .paper .container .totoro .totoro-face .totoro-eyes{   
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 50%; 
+}
+body .paper .container .totoro .totoro-face .totoro-eyes .eye{
+    margin: auto;
+    display: flex;
+    width: 10%;
+    height: 30%;
+    border-radius: 50%;
+    border: solid #242424; 
+    background-color: #eeeeee;
+}
+body .paper .container .totoro .totoro-face .totoro-eyes .eye .eye-pupil{
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-color: #242424;
+}
+body .paper .container .totoro .totoro-face .totoro-eyes .eye .eye-pupil .eye-pupil_light{
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-color: #eeeeee;
+}
+body .paper .container .totoro .totoro-face .totoro-nose{
+    margin: auto;
+    position: relative;
+    bottom: 20%;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background-color: #242424;
+}
+body .paper .container .totoro .totoro-face .totoro-nose .nose-light{
+    margin: auto;
+    position: relative;
+    right: 10%;
+    top: 15%; 
+    transform: rotate(-15deg);
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    background-color: #eeeeee;
+}
+body .paper .container .totoro .totoro-face .totoro-nose .nose-bottom{
+    margin: auto;
+    position: relative;
+    top: 30%;
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+    background-color:#242424;
+}
+body .paper .container .totoro .totoro-face .totoro-mouth{
+    margin: auto;
+    position: relative;
+    bottom: 5%;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    background-color: #242424;
+}
+body .paper .container .totoro .totoro-face .totoro-mouth::after{
+    margin: auto;
+    position: relative;
+    top: 12%;
+    left: 4%;
+    display: block;
+    content: "";
+    width: 110%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #9a9995;
+}
+body .paper .container .totoro .totoro-face .totoro-whiskers{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+body .paper .container .totoro .totoro-face .totoro-whiskers .whiskers-group{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+}
+body .paper .container .totoro .totoro-face .totoro-whiskers .whiskers-group .whisker-1{
+    margin: auto;
+    width: 30%;
+    height: 10%;
+    background-color: #242424;
+}
+body .paper .container .totoro .totoro-face .totoro-whiskers .whiskers-group .whisker-1::before{
+    content: "";
+    position: relative;
+    right: 19%;
+    display: block;
+    width: 20%;
+    height: 100%;
+    clip-path: polygon(0 50%, 100% 100%, 100% 0);
+    background-color: #242424;
+}
+body .paper .container .totoro .totoro-face .totoro-whiskers .whiskers-group .whisker-1::after{
+    content: "";
+    position: relative;
+    bottom: 100%;
+    left: 90%;
+    right: 19%;
+    display: block;
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #242424;
+}
+body .paper .container .totoro .totoro-body{
+    margin: auto;
+    position: relative;
+    bottom: 40%;
+    width: 70%;
+    height: 70%;
+    border-radius: 60%;
+    background-color: #9a9995;
+    border-bottom: solid #242424;
+    border-left: solid #242424;
+    border-right: solid #242424;
+    border-top: solid #9a9995;
+}
