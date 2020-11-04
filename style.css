@@ -301,7 +301,6 @@ body{
     left: unset;
     right: 9%;
 }
-
 .totoro-body{
     margin: auto;
     position: relative;
@@ -314,4 +313,84 @@ body{
     border-left: solid #242424;
     border-right: solid #242424;
     border-top: solid #9a9995;
+}
+.totoro-belly{
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    border-radius: 40%;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+}
+#top-belly{
+    top: 26%;
+    border: solid #242424;
+}
+#bottom-belly{
+    bottom:10%; 
+    border-bottom: solid #242424;
+}
+.totoro-belly-decoration{
+    margin: auto;
+    position: relative;
+    bottom: 65%;
+    width: 100%;
+    height: 50%;
+}
+.belly-decoration{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.belly-figure{
+    margin: auto;
+    position: relative;
+    width: 15%;
+    height: 50%; 
+    border-radius: 50%;
+    background-color: #9a9995;
+    border: solid #242424;
+}
+.belly-figure::after{
+    position: relative;
+    top: 20%;
+    right: 10%;
+    content: "";
+    display: block;
+    margin: auto;
+    width: 120%;
+    height: 100%;
+    border-radius: 30%;
+    background-color: #eeeeee;
+}
+#bottom{
+    position: relative;
+    bottom: 20%;
+}
+#figure-1{
+    transform: rotate(-15deg);
+    left: 10%;
+    bottom: 10%;
+}
+#figure-2{
+    bottom: 20%;
+}
+#figure-3{
+    transform: rotate(15deg);
+    right: 10%;
+    bottom: 10%;
+}
+#figure-4{
+    transform: rotate(-15deg);
+}
+#figure-5{
+    bottom: 20%;
+}
+#figure-6{
+    bottom: 20%;
+}
+#figure-7{
+    transform: rotate(15deg);
 }
