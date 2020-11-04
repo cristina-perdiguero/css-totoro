@@ -3,12 +3,12 @@ body{
     background-color: #242424;
     padding: 2.25% 5px;
 }
-body .paper{
+.paper{
     margin: auto;
     position: relative;
     width: 650px;
 }
-body .paper .container{
+.container{
     margin: auto;
     position: relative;
     padding: 10px;
@@ -16,7 +16,7 @@ body .paper .container{
     height: 800px;
     overflow: hidden;
 }
-body .paper .container .full-moon {
+.full-moon {
     margin: auto;
     position: relative;
     width: calc(100% - 10px);
@@ -24,7 +24,7 @@ body .paper .container .full-moon {
     background-color: #eeeeee;
     border-radius: 50%;
 }
-body .paper .container .hidden-moon{
+.hidden-moon{
     margin: auto;
     position: absolute;
     width: calc(100% - 10px);
@@ -35,7 +35,7 @@ body .paper .container .hidden-moon{
     transform: scale(.95);
     left: 15%;
 }
-body .paper .container .totoro{
+.totoro{
     margin: auto;
     position: relative;
     bottom: 50%;
@@ -43,7 +43,7 @@ body .paper .container .totoro{
     height: 70%;
     background-color: #e0ce83;
 }
-body .paper .container .totoro .totoro-ears{
+.totoro-ears{
     margin: auto;
     display: flex; 
     position: relative;
@@ -51,13 +51,13 @@ body .paper .container .totoro .totoro-ears{
     height: 15%;
     z-index: 1000;
 }
-body .paper .container .totoro .totoro-ears .ear{
+.ear{
     margin: auto;
     position: relative;
     width: 20%;
     height: 100%;
 }
-body .paper .container .totoro .totoro-ears .ear .ear-top{
+.ear-top{
     margin: auto;
     position: relative;
     top: 12.5%;
@@ -66,7 +66,7 @@ body .paper .container .totoro .totoro-ears .ear .ear-top{
     border-radius: 50%;
     background: #9a9995;
 }
-body .paper .container .totoro .totoro-ears .ear .ear-middle{
+.ear-middle{
     margin: auto;
     position: relative;
     width: 100%; 
@@ -74,7 +74,7 @@ body .paper .container .totoro .totoro-ears .ear .ear-middle{
     background: #9a9995;
     clip-path: polygon(25% 0, 75% 0, 100% 100%, 0% 100%);
 }
-body .paper .container .totoro .totoro-ears .ear .ear-bottom{
+.ear-bottom{
     margin: auto;
     position: relative;
     bottom: 25%;
@@ -83,7 +83,7 @@ body .paper .container .totoro .totoro-ears .ear .ear-bottom{
     border-radius: 50%;
     background: #9a9995;
 }
-body .paper .container .totoro .totoro-ears .ear .ear-union{
+.ear-union{
     margin: auto;
     position: relative;
     bottom: 45%;
@@ -93,7 +93,7 @@ body .paper .container .totoro .totoro-ears .ear .ear-union{
     transform: scale(0.80);
     clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
 }
-body .paper .container .totoro .totoro-head{
+.totoro-head{
     margin: auto;
     position: relative;
     width: 49%;
@@ -102,7 +102,7 @@ body .paper .container .totoro .totoro-head{
     background-color: #9a9995;
     border: solid #242424;
 }
-body .paper .container .totoro .totoro-face{
+.totoro-face{
     margin: auto;
     position: absolute;
     bottom: 55%;
@@ -111,36 +111,36 @@ body .paper .container .totoro .totoro-face{
     height: 25%;
     z-index: 2000;
 }
-body .paper .container .totoro .totoro-face .totoro-eyes{   
+.totoro-eyes{   
     margin: auto;
     display: flex;
     width: 100%;
     height: 50%; 
 }
-body .paper .container .totoro .totoro-face .totoro-eyes .eye{
+.eye{
     margin: auto;
     display: flex;
-    width: 10%;
-    height: 30%;
+    width: 15%;
+    height: 45%;
     border-radius: 50%;
     border: solid #242424; 
     background-color: #eeeeee;
 }
-body .paper .container .totoro .totoro-face .totoro-eyes .eye .eye-pupil{
+.eye-pupil{
     margin: auto;
     width: 60%;
     height: 60%;
     border-radius: 50%;
     background-color: #242424;
 }
-body .paper .container .totoro .totoro-face .totoro-eyes .eye .eye-pupil .eye-pupil_light{
+.eye-pupil_light{
     margin: auto;
     width: 60%;
     height: 60%;
     border-radius: 50%;
     background-color: #eeeeee;
 }
-body .paper .container .totoro .totoro-face .totoro-nose{
+.totoro-nose{
     margin: auto;
     position: relative;
     bottom: 20%;
@@ -149,7 +149,7 @@ body .paper .container .totoro .totoro-face .totoro-nose{
     border-radius: 50%;
     background-color: #242424;
 }
-body .paper .container .totoro .totoro-face .totoro-nose .nose-light{
+.nose-light{
     margin: auto;
     position: relative;
     right: 10%;
@@ -160,7 +160,7 @@ body .paper .container .totoro .totoro-face .totoro-nose .nose-light{
     border-radius: 50%;
     background-color: #eeeeee;
 }
-body .paper .container .totoro .totoro-face .totoro-nose .nose-bottom{
+.nose-bottom{
     margin: auto;
     position: relative;
     top: 30%;
@@ -169,17 +169,17 @@ body .paper .container .totoro .totoro-face .totoro-nose .nose-bottom{
     border-radius: 50%;
     background-color:#242424;
 }
-body .paper .container .totoro .totoro-face .totoro-mouth{
+.totoro-mouth{
     margin: auto;
     position: relative;
     bottom: 5%;
-    width: 10%;
-    height: 10%;
+    width: 5%;
+    height: 5%;
     border-radius: 50%;
     transform: rotate(-15deg);
     background-color: #242424;
 }
-body .paper .container .totoro .totoro-face .totoro-mouth::after{
+.totoro-mouth::after{
     margin: auto;
     position: relative;
     top: 12%;
@@ -191,25 +191,34 @@ body .paper .container .totoro .totoro-face .totoro-mouth::after{
     border-radius: 50%;
     background-color: #9a9995;
 }
-body .paper .container .totoro .totoro-face .totoro-whiskers{
+.totoro-whiskers{
     margin: auto;
+    position: relative;
+    bottom: 25%;
     display: flex;
     width: 100%;
     height: 50%;
 }
-body .paper .container .totoro .totoro-face .totoro-whiskers .whiskers-group{
+.whiskers-group{
     margin: auto;
+    position: relative;
     width: 50%;
     height: 100%;
-    background-color: pink;
 }
-body .paper .container .totoro .totoro-face .totoro-whiskers .whiskers-group .whisker-1{
+#left-whiskers-group{
+    right: 20%;
+}
+#right-whiskers-group{
+    left: 20%;
+}
+.whisker{
     margin: auto;
+    position: relative;
     width: 30%;
-    height: 10%;
+    height: 7%;
     background-color: #242424;
 }
-body .paper .container .totoro .totoro-face .totoro-whiskers .whiskers-group .whisker-1::before{
+.whisker::before{
     content: "";
     position: relative;
     right: 19%;
@@ -219,7 +228,7 @@ body .paper .container .totoro .totoro-face .totoro-whiskers .whiskers-group .wh
     clip-path: polygon(0 50%, 100% 100%, 100% 0);
     background-color: #242424;
 }
-body .paper .container .totoro .totoro-face .totoro-whiskers .whiskers-group .whisker-1::after{
+.whisker::after{
     content: "";
     position: relative;
     bottom: 100%;
@@ -231,7 +240,58 @@ body .paper .container .totoro .totoro-face .totoro-whiskers .whiskers-group .wh
     border-radius: 50%;
     background-color: #242424;
 }
-body .paper .container .totoro .totoro-body{
+#whisker-1{
+    transform: rotate(15deg);
+    bottom: 10%;
+}
+#whisker-2{
+    width: 40%;
+    right: 15%;
+}
+#whisker-3{
+    transform: rotate(-15deg);
+    right: 10%;
+    top: 15%;
+}
+#whisker-4{
+    transform: rotate(-15deg);
+    bottom: 10%;
+}
+#whisker-4::before{
+    transform: rotate(180deg);
+    left: 100%;
+}
+#whisker-4::after{
+    left: unset;
+    right: 9%;
+}
+#whisker-5{
+    width: 40%;
+    left: 15%;
+}
+#whisker-5::before{
+    transform: rotate(180deg);
+    left: 100%;
+}
+#whisker-5::after{
+    left: unset;
+    right: 9%;
+}
+#whisker-6{
+    transform: rotate(15deg);
+    left: 10%;
+    top: 15%;
+}
+#whisker-6::before{
+    transform: rotate(180deg);
+    left: 100%;
+}
+#whisker-6::after{
+    left: unset;
+    right: 9%;
+}
+
+.totoro-body{
     margin: auto;
     position: relative;
     bottom: 40%;
