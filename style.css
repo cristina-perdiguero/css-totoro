@@ -428,3 +428,29 @@ body{
     left: 7%;
     transform: rotate(-45deg);
 }
+.totoro-legs{
+    position: relative;
+    display: flex;
+    z-index: 2000;
+    bottom: 150%; 
+    width: 100%;
+    height: 40%;
+}
+.leg{
+    margin: auto;
+    position: relative;
+    bottom: 10%;
+    width: 20%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: #9a9995; 
+    border: solid #242424;
+}
+#left-leg{
+    transform: rotate(-45deg);
+    left: 10%;
+}
+#right-leg{
+    transform: rotate(45deg);
+    right: 10%;
+}
