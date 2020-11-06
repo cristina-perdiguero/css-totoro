@@ -8,6 +8,14 @@ body{
     position: relative;
     width: 650px;
 }
+@media all and (max-width: 650px){
+    .paper {
+        width: 320;
+    }
+    .container{
+        height: 394px; 
+    }
+}
 .container{
     margin: auto;
     position: relative;
