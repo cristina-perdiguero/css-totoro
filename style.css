@@ -16,26 +16,6 @@ body{
     height: 800px;
     overflow: hidden;
 }
-.moon {
-    margin: auto;
-    position: relative;
-    width: calc(100% - 10px);
-    height: 80%;
-    background-color: #eeeeee;
-    border-radius: 50%;
-}
-.moon::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #242424;
-    border-radius: 50%;
-    bottom: 5%;
-    transform: scale(.95);
-    left: 15%;
-}
 .chibi-totoro{
     margin: auto;
     position: absolute;
@@ -88,7 +68,7 @@ body{
 .totoro{
     margin: auto;
     position: relative;
-    bottom: 50%;
+    top: 30%;
     width: 70%;
     height: 70%;
 }
@@ -508,7 +488,7 @@ body{
 }
 .branch-composition{
     position: relative; 
-    bottom: 65%;
+    top: 15%;
     width: 100%;
     height: 20%;
 }
