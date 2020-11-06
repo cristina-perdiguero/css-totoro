@@ -425,6 +425,16 @@ body{
 #figure-7{
     transform: rotate(15deg);
 }
+.totoro-tail{
+    margin: auto;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: #9a9995;
+}
 .totoro-arms{
     position: relative;
     display: flex;
