@@ -19,7 +19,7 @@ body{
 .chibi-totoro{
     margin: auto;
     position: absolute;
-    bottom: 57%;
+    bottom: 70%;
     left: 45%;
     z-index: 2000;
     width: 10%;
@@ -68,7 +68,7 @@ body{
 .totoro{
     margin: auto;
     position: relative;
-    top: 30%;
+    top: 15%;
     width: 70%;
     height: 70%;
 }
@@ -488,7 +488,6 @@ body{
 }
 .branch-composition{
     position: relative; 
-    top: 15%;
     width: 100%;
     height: 20%;
 }
@@ -521,7 +520,4 @@ body{
     height: 40%;
     background-color: #9a9995;
     border-top: solid #242424;
-}
-.branch-3{
-
 }
